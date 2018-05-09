@@ -8,9 +8,12 @@ const buildCommissionForm = function (id) {
         const output = $("#commission-form")
         const fragment = document.createDocumentFragment()
 
+        const line = document.createElement("hr")
+        fragment.appendChild(line)
+
         // Header
         const header = document.createElement("h2")
-        header.textContent = "Skull & Potter Order Form"
+        header.textContent = "Skull & Potter Commission Order Form"
         fragment.appendChild(header)
 
         // Customer info (name, address, phone number, email)
