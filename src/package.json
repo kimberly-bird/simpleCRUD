@@ -12,9 +12,6 @@
   },
   "author": "Steve Brownlee <steve@stevebrownlee.com>",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "devDependencies": {
     "grunt": "^1.0.2",
